@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#07111f">
+<title>Lei Justine Laylay | Information Systems Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+<meta name="description" content="Personal portfolio of Lei Justine Laylay, BS Information Systems student at Lyceum of Southern Luzon.">\n</head>
+<body class="has-player">
+<canvas id="network"></canvas><div class="backdrop"></div>
+<div class="intro" id="intro"><div class="intro-content">
+  <div class="logo">PERSONAL PORTFOLIO · INFORMATION SYSTEMS</div>
+  <h1>WELCOME<span>.</span></h1>
+  <p>A digital introduction to my education, skills, experience, and projects.</p>
+  <button class="btn enter" id="enterBtn">▶ &nbsp; ENTER WEBSITE</button>
+  <span class="hint">Click to begin the experience</span>
+</div></div>
+
+<header class="topbar"><div class="container navwrap">
+  <a class="brand" href="#home">MY<span>.</span>PORTFOLIO</a>
+  <button class="menu" id="menuBtn" aria-label="Toggle navigation">☰</button>
+  <nav id="nav">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+  </nav>
+</div></header>
+
+<section class="music"><div class="container music-inner">
+  <div class="track-info"><strong id="trackTitle">Ex Nihilo — MIREI x HOYO-MiX</strong><small id="trackStatus">Ready · Press ENTER WEBSITE to begin</small><div class="progress"><div id="progressBar"></div></div></div>
+  <button class="play" id="playBtn" type="button" aria-label="Play or pause">▶</button>
+  <button id="repeatBtn" type="button" title="Repeat track" aria-label="Repeat track">↻</button>
+  <span class="volume-label">VOL</span><input id="volume" type="range" min="0" max="1" step=".01" value=".7" aria-label="Volume">
+  <audio id="audio" preload="auto" src="music/ex-nihilo.m4a"></audio>
+</div></section>
+
+<main>
+<section class="section container hero" id="home">
+  <div><div class="eyebrow">INFORMATION SYSTEMS STUDENT</div><h1>Hello, I'm<br><span>Lei Justine Laylay.</span></h1>
+    <p>An Information Systems student interested in technology, programming, and database management. I enjoy learning new technical skills and exploring how technology can solve problems.</p>
+    <div class="actions"><button class="btn secondary" onclick="window.print()">Download / Print Resume</button></div>
+  </div>
+  <div class="profile-card"><div class="avatar" id="avatar"><img src="profile.jpg" alt="Lei Justine Laylay"></div><h3>Lei Justine Laylay</h3><small>BS Information Systems Student</small></div>
+</section>
+
+<section class="section container" id="about"><div class="eyebrow">GET TO KNOW ME</div><h2 class="section-title">About <span>Me</span></h2><p class="lead">An aspiring technology professional building a foundation in programming, web development, and database systems.</p>
+  <div class="card"><h3>Personal Profile</h3><p>I am currently pursuing a Bachelor of Science in Information Systems at Lyceum of Southern Luzon. I am interested in developing my technical knowledge, improving my problem-solving skills, and gaining practical experience through projects and collaboration.</p></div>
+</section>
+
+<section class="section container" id="education"><div class="eyebrow">ACADEMIC BACKGROUND</div><h2 class="section-title">My <span>Education</span></h2><p class="lead">My educational journey and academic achievements.</p>
+  <div class="card timeline">
+    <div class="entry"><h3>Lyceum of Southern Luzon</h3><div class="sub">Bachelor of Science in Information Systems · Currently enrolled</div></div>
+    <div class="entry"><h3>Lyceum of Southern Luzon</h3><div class="sub">Senior High School Graduate · With Honors</div></div>
+    <div class="entry"><h3>Balayan National High School</h3><div class="sub">Junior High School Graduate · With Honors</div></div>
+    <div class="entry"><h3>Caloocan Elementary School</h3><div class="sub">Elementary Graduate · With Honors</div></div>
+  </div>
+</section>
+
+<section class="section container" id="skills"><div class="eyebrow">WHAT I CAN DO</div><h2 class="section-title">My <span>Skills</span></h2><p class="lead">Technologies and abilities I have studied and practiced.</p>
+  <div class="grid"><div class="card"><h3>Programming & Web</h3><div class="taglist"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">C++</span></div></div>
+  <div class="card"><h3>Database</h3><div class="taglist"><span class="tag">SQL</span><span class="tag">MySQL</span><span class="tag">Database Fundamentals</span></div></div>
+  <div class="card"><h3>Professional Skills</h3><div class="taglist"><span class="tag">Problem-solving</span><span class="tag">Teamwork</span><span class="tag">Basic Web Development</span></div></div></div>
+</section>
+
+<section class="section container" id="experience"><div class="eyebrow">PRACTICAL EXPERIENCE</div><h2 class="section-title">Work <span>Experience</span></h2>
+  <div class="card"><div class="eyebrow">SENIOR HIGH SCHOOL</div><h3>JK Mega Printing</h3><p class="sub" style="color:var(--blue)">Work Immersion Trainee</p><ul><li>Assisted with tarpaulin pricing.</li><li>Helped process customer orders.</li><li>Assisted with business card orders.</li><li>Helped with sticker-related tasks.</li><li>Gained exposure to daily printing business operations.</li></ul></div>
+</section>
+
+<section class="section container" id="projects"><div class="eyebrow">WHAT I'VE WORKED ON</div><h2 class="section-title">My <span>Projects</span></h2><p class="lead">A place to showcase school, programming, and personal projects.</p>
+  <div class="grid"><div class="card"><h3>Web Development Projects</h3><p>My biggest achivement was making a lyceum school web with my classmate.</p></div><div class="card"><h3>Programming Projects</h3><p>We made a website for our research genererative ai something how to use ai for learning properly.</p></div></div>
+</section>
+
+<section class="section container" id="achievements"><div class="eyebrow">MILESTONES</div><h2 class="section-title">Academic <span>Achievements</span></h2><div class="card"><ul><li>With Honors — Elementary School</li><li>With Honors — Junior High School</li><li>With Honors — Senior High School</li></ul></div>
+</section>
+
+<section class="section container" id="contact"><div class="eyebrow">LET'S CONNECT</div><h2 class="section-title">Contact <span>Me</span></h2><p class="lead">For professional, academic, or project-related inquiries.</p><div class="card"><p class="muted">Feel free to contact me for academic, professional, or project-related inquiries.</p><div class="contact-links"><a href="tel:09692263206">Phone: 09692263206</a><a href="mailto:Leijustine39@gmail.com">Email: Leijustine39@gmail.com</a></div></div></section>
+</main>
+<footer><div class="container">© <span id="year"></span> My Portfolio · Built with HTML, CSS & JavaScript</div></footer>
+
+<script src="js/script.js" defer></script>
+</body></html>
